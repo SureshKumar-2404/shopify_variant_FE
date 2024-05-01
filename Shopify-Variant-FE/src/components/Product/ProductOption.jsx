@@ -210,7 +210,7 @@ function ProductOption() {
                 },
                 body: JSON.stringify({
                     option_name: newOption.name,
-                    option_value: JSON.stringify(newOption.values),
+                    // option_value: JSON.stringify(newOption.values),
                     product_id: productId,
                 }),
             });
@@ -334,7 +334,6 @@ function ProductOption() {
         </div>
     );
 }
-
 
 function ProductPage() {
     return (
